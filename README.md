@@ -68,6 +68,14 @@ Stop Time	1/5/2023, 12:03:52.219 PM
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
 
+From the above metrics and the Azure Defender Secuirty posture recommendations. You will see in the below tables the reductions in percentages. 
+
+![Azure Defender Security Posture (Before)](https://imagizer.imageshack.com/img923/144/xL3O1z.png)<br>
+![Azure Defender Security Posture (after](https://imagizer.imageshack.com/img922/1859/UnPMOX.png)<br>
+![Before Securing the environment](https://imagizer.imageshack.com/img924/7021/lYJYP6.png)<br>
+![After Securing the environment](https://imagizer.imageshack.com/img922/323/cELO8X.png)<br>
+
+
 ## Security Controls
 For this project I have used and tried to map the following controls below. Some of them don't directly map. You will find as I did, the majority of the controls do pretty much the exact same thing, but they may differ in how they are implemented and callled. For example, PCI-DSS as a strict implementation of there controls. 
 
@@ -83,3 +91,5 @@ For this project I have used and tried to map the following controls below. Some
 In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastially reduced after the security controls were applied, demonstrating their effectiveness.
 
 It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+
+

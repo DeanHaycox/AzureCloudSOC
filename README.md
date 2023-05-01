@@ -69,7 +69,7 @@ Stop Time	1/5/2023, 12:03:52.219 PM
 | AzureNetworkAnalytics_CL | 0
 
 ## Security Controls
-For this project I have used and tried to map the following controls below. Some of them don't directly map. You will find as I did, the majority of the controls do pretty much the expact same thing, but they may differ in how they are implemented and callled. For example, PCI-DSS as a strict implementation of there controls. 
+For this project I have used and tried to map the following controls below. Some of them don't directly map. You will find as I did, the majority of the controls do pretty much the exact same thing, but they may differ in how they are implemented and callled. For example, PCI-DSS as a strict implementation of there controls. 
 
 - NIST 800-53
 - CIS
